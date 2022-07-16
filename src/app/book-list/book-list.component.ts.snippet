@@ -1,0 +1,15 @@
+import { Component/*BS*/, EventEmitter, Output/*BE*/ } from '@angular/core';
+import { Book } from '../shared/book';
+
+@Component({ /* ... */ })
+export class BookListComponent {
+  books: Book[] = [];
+  /*BS*/@Output() selectBook = new EventEmitter<Book>();/*BE*/
+
+  constructor() {/* ... */}
+
+  /*BS*/
+  doSelect(book: Book) {
+    this.selectBook.emit(book);
+  }/*BE*/
+}
