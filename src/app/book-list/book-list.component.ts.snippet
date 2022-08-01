@@ -6,10 +6,9 @@ export class BookListComponent {
   books: Book[] = [];
   /*BS*/@Output() selectBook = new EventEmitter<Book>();/*BE*/
 
-  constructor() {/* ... */}
+  constructor() { /* ... */ }
 
-  /*BS*/
-  doSelect(book: Book) {
+  /*BS*/doSelect(book: Book) {
     this.selectBook.emit(book);
   }/*BE*/
 }
