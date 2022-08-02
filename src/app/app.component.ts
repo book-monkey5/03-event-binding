@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-/*BS*/import { Book } from './shared/book';/*BE*/
+import { Book } from './shared/book';
 
 @Component({
   selector: 'bm-root',
@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  /*BS*/book: Book | null = null;
+  book: Book | null = null;
 
   showList() {
     this.book = null;
@@ -15,5 +15,5 @@ export class AppComponent {
 
   showDetails(book: Book) {
     this.book = book;
-  }/*BE*/
+  }
 }
