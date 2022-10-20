@@ -17,7 +17,7 @@ describe('BookListComponent', () => {
   let fixture: ComponentFixture<BookListComponent>;
 
   beforeEach(async () => {
-    TestBed.configureTestingModule({
+    await TestBed.configureTestingModule({
       declarations: [
         BookListComponent,
         TestBookListItemComponent // NEU
