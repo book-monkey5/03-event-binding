@@ -19,7 +19,7 @@ export class BookListComponent {
         authors: ['Mrs Chimp', 'Mr Gorilla'],
         published: '2022-06-20',
         subtitle: 'Rezepte von Affe bis Zebra',
-        thumbnailUrl: 'https://ng-buch.de/kochen.jpg',
+        thumbnailUrl: 'https://cdn.ng-buch.de/kochen.png',
         description: 'Immer lecker und gut'
       },
       {
@@ -28,7 +28,7 @@ export class BookListComponent {
         authors: ['Orang Utan'],
         published: '2022-07-15',
         subtitle: 'Bananenbrot und mehr',
-        thumbnailUrl: 'https://ng-buch.de/backen.jpg',
+        thumbnailUrl: 'https://cdn.ng-buch.de/backen.png',
         description: 'Tolle Backtipps für Mensch und Tier'
       }
     ];
