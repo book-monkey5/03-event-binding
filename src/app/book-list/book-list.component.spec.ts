@@ -10,7 +10,7 @@ describe('BookListComponent', () => {
   });
 
   it('should hold a hardcoded list of 2 books', () => {
-    expect(component.books.length).toBe(2);
+    expect(component.books).toHaveSize(2);
   });
 
   it('should trigger an event on "doSelect"', () => {
